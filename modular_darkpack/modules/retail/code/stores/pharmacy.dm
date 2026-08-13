@@ -19,12 +19,14 @@
 		new /datum/data/vending_product("crutch", /obj/item/cane/crutch),
 		new /datum/data/vending_product("wooden crutch", /obj/item/cane/crutch/wood),
 		new /datum/data/vending_product("empty blood bag", /obj/item/reagent_containers/blood/empty),
-		new /datum/data/vending_product("Empty Medical Kit", /obj/item/storage/medkit, 200),
-		new /datum/data/vending_product("Medical Kit", /obj/item/storage/medkit/regular, 500),
-		new /datum/data/vending_product("Emergency Medkit", /obj/item/storage/medkit/emergency, 300),
-		new /datum/data/vending_product("Surgical Kit", /obj/item/storage/medkit/surgery, 900),
-		new /datum/data/vending_product("Advanced Surgical Kit", /obj/item/storage/medkit/surgery_syndie, 3000),
-		new /datum/data/vending_product("Burn Kit", /obj/item/storage/medkit/fire, 600),
-		new /datum/data/vending_product("Toxin Treatment Kit", /obj/item/storage/medkit/toxin, 700),
-		new /datum/data/vending_product("Oxygen Deprivation Kit", /obj/item/storage/medkit/o2, 700)
+		new /datum/data/vending_product("Empty Medical Kit", /obj/item/storage/medkit/darkpack, 200),
+		new /datum/data/vending_product("Medical Kit", /obj/item/storage/medkit/darkpack/standard, 500),
+		new /datum/data/vending_product("Individual First Aid Kit", /obj/item/storage/medkit/darkpack/ifak, 500),
+		new /datum/data/vending_product("Doctor's Kit", /obj/item/storage/medkit/darkpack/doctor, 900),
+		new /datum/data/vending_product("Advanced Medical Kit", /obj/item/storage/medkit/darkpack/advanced, 1200),
+		new /datum/data/vending_product("Burn Kit", /obj/item/storage/medkit/darkpack/burn, 600),
+		new /datum/data/vending_product("Toxin Treatment Kit", /obj/item/storage/medkit/darkpack/tox, 700),
+		new /datum/data/vending_product("Brute Treatment Kit", /obj/item/storage/medkit/darkpack/brute, 700),
+		new /datum/data/vending_product("Oxygen Deprivation Kit", /obj/item/storage/medkit/darkpack/oxy, 700),
+		new /datum/data/vending_product("Combat Medical Kit", /obj/item/storage/medkit/darkpack/combat, 1000)
 	)

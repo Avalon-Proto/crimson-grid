@@ -21,7 +21,6 @@
 		new /datum/data/vending_product("cannabis package", /obj/item/food/grown/cannabis, 700),
 		new /datum/data/vending_product("morphine syringe", /obj/item/reagent_containers/syringe/contraband/morphine, 800),
 		new /datum/data/vending_product("meth package", /obj/item/reagent_containers/cup/glass/baggie/meth, 800),
-		new /datum/data/vending_product("Advanced Medical Kit", /obj/item/storage/medkit/advanced, 1000),
 		new /datum/data/vending_product("Compact Medical Kit", /obj/item/storage/medkit/tactical_lite, 1125),
 		new /datum/data/vending_product("Premium Medical Kit", /obj/item/storage/medkit/tactical/premium, 2250),
 		new /datum/data/vending_product("Coroner's Surgical Kit", /obj/item/storage/medkit/coroner, 750)
