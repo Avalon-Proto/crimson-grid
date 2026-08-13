@@ -26,9 +26,5 @@
 		new /datum/data/vending_product("Advanced Surgical Kit", /obj/item/storage/medkit/surgery_syndie, 3000),
 		new /datum/data/vending_product("Burn Kit", /obj/item/storage/medkit/fire, 600),
 		new /datum/data/vending_product("Toxin Treatment Kit", /obj/item/storage/medkit/toxin, 700),
-		new /datum/data/vending_product("Oxygen Deprivation Kit", /obj/item/storage/medkit/o2, 700),
-		new /datum/data/vending_product("Advanced Medical Kit", /obj/item/storage/medkit/advanced, 1000),
-		new /datum/data/vending_product("Compact Medical Kit", /obj/item/storage/medkit/tactical_lite, 1125),
-		new /datum/data/vending_product("Premium Medical Kit", /obj/item/storage/medkit/tactical/premium, 2250),
-		new /datum/data/vending_product("Coroner's Surgical Kit", /obj/item/storage/medkit/coroner, 750)
+		new /datum/data/vending_product("Oxygen Deprivation Kit", /obj/item/storage/medkit/o2, 700)
 	)
