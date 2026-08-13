@@ -180,7 +180,7 @@ export const ScreenHome = (props: {
   const { act, data } = useBackend<Data>();
   const { setApp } = props;
   const navigateTo = (app: NavigableApps) => {
-    // act('keyboard_click') // CRIMSON EDIT REMOVAL: screen taps
+    act('keyboard_click');
     setApp(app);
   };
   const { time, date, background_url } = data;

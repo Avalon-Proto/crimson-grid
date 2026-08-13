@@ -280,8 +280,6 @@
 			REMOVE_TRAIT(owner, TRAIT_MASQUERADE_VIOLATING_FACE, CLAN_TRAIT)
 		if(owner_splat.clan && (TRAIT_MASQUERADE_VIOLATING_EYES in owner_splat.clan.clan_traits))
 			REMOVE_TRAIT(owner, TRAIT_MASQUERADE_VIOLATING_EYES, CLAN_TRAIT)
-		if(original_sprite == "rotten4")
-			REMOVE_TRAIT(owner, TRAIT_MASQUERADE_VIOLATING_FACE, MAGIC_TRAIT)
 		owner.set_body_sprite(SPECIES_HUMAN, TRUE, TRUE)
 
 	owner.updateappearance(mutcolor_update = TRUE)
@@ -300,8 +298,6 @@
 		ADD_TRAIT(owner, TRAIT_MASQUERADE_VIOLATING_FACE, CLAN_TRAIT)
 	if(owner_splat.clan && (TRAIT_MASQUERADE_VIOLATING_EYES in owner_splat.clan.clan_traits))
 		ADD_TRAIT(owner, TRAIT_MASQUERADE_VIOLATING_EYES, CLAN_TRAIT)
-	if(original_sprite == "rotten4")
-		ADD_TRAIT(owner, TRAIT_MASQUERADE_VIOLATING_FACE, MAGIC_TRAIT)
 
 	owner.set_body_sprite(original_sprite, original_sprite_greyscale, TRUE)
 	owner.updateappearance(mutcolor_update = TRUE)
