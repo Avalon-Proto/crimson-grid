@@ -29,6 +29,5 @@
 		new /datum/data/vending_product("Toxin Treatment Kit", /obj/item/storage/medkit/darkpack/tox, 700),
 		new /datum/data/vending_product("Brute Treatment Kit", /obj/item/storage/medkit/darkpack/brute, 700),
 		new /datum/data/vending_product("Oxygen Deprivation Kit", /obj/item/storage/medkit/darkpack/oxy, 700),
-		new /datum/data/vending_product("Combat Medical Kit", /obj/item/storage/medkit/darkpack/combat, 1000)
 // CRIMSON EDIT ADD END - Medkit to Pharmacy
 	)
