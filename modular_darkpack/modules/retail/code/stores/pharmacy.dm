@@ -18,6 +18,7 @@
 		new /datum/data/vending_product("white cane", /obj/item/cane/white),
 		new /datum/data/vending_product("crutch", /obj/item/cane/crutch),
 		new /datum/data/vending_product("wooden crutch", /obj/item/cane/crutch/wood),
+// CRIMSON EDIT ADD START - Medkit to Pharmacy
 		new /datum/data/vending_product("empty blood bag", /obj/item/reagent_containers/blood/empty),
 		new /datum/data/vending_product("Empty Medical Kit", /obj/item/storage/medkit/darkpack, 200),
 		new /datum/data/vending_product("Medical Kit", /obj/item/storage/medkit/darkpack/standard, 500),
@@ -29,4 +30,5 @@
 		new /datum/data/vending_product("Brute Treatment Kit", /obj/item/storage/medkit/darkpack/brute, 700),
 		new /datum/data/vending_product("Oxygen Deprivation Kit", /obj/item/storage/medkit/darkpack/oxy, 700),
 		new /datum/data/vending_product("Combat Medical Kit", /obj/item/storage/medkit/darkpack/combat, 1000)
+// CRIMSON EDIT ADD END - Medkit to Pharmacy
 	)
