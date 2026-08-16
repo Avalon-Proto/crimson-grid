@@ -20,7 +20,7 @@
 		/datum/job_department/camarilla,
 	)
 
-	maximal_generation = 8 // Crimson Grid Edit - Lock Adjustments
+	maximal_generation = 8 // Crimson Grid Edit - Lock Adjustments - Was 9
 	maximum_immortal_age = 200
 	minimum_masquerade = 3
 	allowed_splats = list(SPLAT_KINDRED, SPLAT_GHOUL)
