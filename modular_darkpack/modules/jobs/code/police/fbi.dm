@@ -15,7 +15,8 @@
 
 	known_contacts = list(
 		JOB_POLICE_CAPTAIN,
-		JOB_FEDERAL_INVESTIGATOR
+		JOB_FEDERAL_INVESTIGATOR,
+		JOB_PRIMOGEN_BANU_HAQIM
 	)
 
 	allowed_splats = list(SPLAT_NONE)

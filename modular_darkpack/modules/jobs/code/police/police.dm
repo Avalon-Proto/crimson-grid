@@ -28,7 +28,8 @@
 	known_contacts = list(
 		JOB_POLICE_CAPTAIN,
 		JOB_POLICE_SERGEANT,
-		JOB_EMERGENCY_DISPATCHER
+		JOB_EMERGENCY_DISPATCHER,
+		JOB_PRIMOGEN_BANU_HAQIM
 	)
 
 /datum/outfit/job/vampire/police_officer
