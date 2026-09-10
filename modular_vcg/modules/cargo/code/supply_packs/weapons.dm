@@ -1,6 +1,3 @@
-/datum/supply_pack/weapons
-	group = "Weapons"
-
 /datum/supply_pack/weapons/ammo9mm/hollowpoint
 	name = "Ammo (9mm Hollowpoints)"
 	desc = "Contains 3 boxes of hollowpoint 9mm ammunition."
