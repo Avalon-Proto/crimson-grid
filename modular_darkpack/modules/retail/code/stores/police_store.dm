@@ -60,12 +60,12 @@
 		new /datum/data/vending_product("PDW ammo box", /obj/item/ammo_box/darkpack/c46pdw, 80),
 
 // Crimson Grid Additions - Armory Ammunition Additions
-		new /datum/data/vending_product("5.56 AP ammo", /obj/item/ammo_box/darkpack/c556/AP, 80),
-		new /datum/data/vending_product("PDW AP ammo box", /obj/item/ammo_box/darkpack/c46pdw/AP, 80),
-		new /datum/data/vending_product("7.62x51mm AP ammo", /obj/item/ammo_box/darkpack/c762x51mm/AP, 80),
-		new /datum/data/vending_product("7.62x51mm HP ammo", /obj/item/ammo_box/darkpack/c762x51mm/HP, 80),
+		new /datum/data/vending_product("5.56 AP ammo", /obj/item/ammo_box/darkpack/c556/ap, 80),
+		new /datum/data/vending_product("PDW AP ammo box", /obj/item/ammo_box/darkpack/c46pdw/ap, 80),
+		new /datum/data/vending_product("7.62x51mm AP ammo", /obj/item/ammo_box/darkpack/c762x51mm/ap, 80),
+		new /datum/data/vending_product("7.62x51mm HP ammo", /obj/item/ammo_box/darkpack/c762x51mm/hp, 80),
 		new /datum/data/vending_product("12 gauge flechette ammo box", /obj/item/ammo_box/darkpack/c12g/buck/flech, 80),
-		new /datum/data/vending_product(".50 BMG DU ammo", /obj/item/ammo_box/darkpack/c50/DU, 200),
+		new /datum/data/vending_product(".50 BMG DU ammo", /obj/item/ammo_box/darkpack/c50/du, 200),
 // Crimson Grid Additions End - Armory Ammunition Additions
 	)
 

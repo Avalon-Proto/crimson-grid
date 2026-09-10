@@ -111,7 +111,7 @@
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo556/ap
-	name = "Ammo (5.56mm ap)"
+	name = "Ammo (5.56mm AP)"
 	desc = "Contains 3 boxes of armor-piercing 5.56mm ammunition."
 	cost = 1250
 	contains = list(/obj/item/ammo_box/darkpack/c556/ap, /obj/item/ammo_box/darkpack/c556/ap, /obj/item/ammo_box/darkpack/c556/ap)
