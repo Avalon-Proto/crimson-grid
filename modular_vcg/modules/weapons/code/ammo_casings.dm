@@ -76,7 +76,7 @@
 	projectile_type = /obj/projectile/bullet/darkpack/vamp50/DU
 
 /obj/item/ammo_casing/vampire/c50/rauf
-	name = ".50 BMG raufauss round"
+	name = ".50 BMG raufoss round"
 	desc = "A .50 BMG round packed with a small explosive charge. HIGHLY ILLEGAL."
 	projectile_type = /obj/projectile/bullet/darkpack/vamp50/rauf
 

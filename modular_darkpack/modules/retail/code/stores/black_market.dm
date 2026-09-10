@@ -42,7 +42,7 @@
 		new /datum/data/vending_product("5.45 incendiary ammo", /obj/item/ammo_box/darkpack/c545/incendiary, 3000),
 		new /datum/data/vending_product(".50 BMG DU ammo", /obj/item/ammo_box/darkpack/c50/DU, 6000),
 		new /datum/data/vending_product(".50 BMG API ammo", /obj/item/ammo_box/darkpack/c50/API, 6000),
-		new /datum/data/vending_product(".50 BMG raufauss ammo", /obj/item/ammo_box/darkpack/c50/rauf, 6000),
+		new /datum/data/vending_product(".50 BMG raufoss ammo", /obj/item/ammo_box/darkpack/c50/rauf, 6000),
 		new /datum/data/vending_product("12g HE slugs", /obj/item/ammo_box/darkpack/c12g/HE, 4000),
 		new /datum/data/vending_product("12g silver buckshot", /obj/item/ammo_box/darkpack/c12g/buck/silver, 3000),
 		new /datum/data/vending_product("12g flechette shells", /obj/item/ammo_box/darkpack/c12g/buck/flech, 2000),

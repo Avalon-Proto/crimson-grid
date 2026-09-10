@@ -146,8 +146,8 @@
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50bmg/rauf
-	name = "Ammo (.50 BMG raufauss)"
-	desc = "Contains 1 boxes of raufauss .50 BMG ammunition."
+	name = "Ammo (.50 BMG raufoss)"
+	desc = "Contains 1 boxes of raufoss .50 BMG ammunition."
 	cost = 3500
 	contains = list(/obj/item/ammo_box/darkpack/c50/rauf)
 	crate_name = "ammo crate"
