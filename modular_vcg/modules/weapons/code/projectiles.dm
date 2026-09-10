@@ -6,13 +6,13 @@
 	damage = 30
 	exposed_wound_bonus = 10
 
-/obj/projectile/bullet/darkpack/vamp9mm/HP
+/obj/projectile/bullet/darkpack/vamp9mm/hp
 	damage = 40
 	exposed_wound_bonus = 15
 	armour_penetration = -5
 	weak_against_armour = TRUE
 
-/obj/projectile/bullet/darkpack/vamp9mm/AP
+/obj/projectile/bullet/darkpack/vamp9mm/ap
 	damage = 25
 	exposed_wound_bonus = 0
 	wound_bonus = 5
@@ -33,7 +33,7 @@
 	exposed_wound_bonus = -5
 	wound_bonus = 0
 
-/obj/projectile/bullet/darkpack/vamp46mm/AP
+/obj/projectile/bullet/darkpack/vamp46mm/ap
 	damage = 20
 	armour_penetration = 55
 	exposed_wound_bonus = -10
@@ -49,16 +49,16 @@
 	damage = 45
 	armour_penetration = 10
 
-/obj/projectile/bullet/darkpack/vamp45acp/AP
+/obj/projectile/bullet/darkpack/vamp45acp/ap
 	damage = 30
 	armour_penetration = 30
 
-/obj/projectile/bullet/darkpack/vamp45acp/WP
+/obj/projectile/bullet/darkpack/vamp45acp/wp
 	damage = 40
 	armour_penetration = -10
 	var/fire_stacks = 4
 
-/obj/projectile/bullet/darkpack/vamp45acp/WP/on_hit(atom/target, blocked = 0, pierce_hit)
+/obj/projectile/bullet/darkpack/vamp45acp/wp/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
 	do_sparks(2, TRUE, src)
 	if(iscarbon(target))
@@ -69,7 +69,7 @@
 /obj/projectile/bullet/darkpack/vamp45acp/silver
 	armour_penetration = 0
 
-/obj/projectile/bullet/darkpack/vamp45acp/HP
+/obj/projectile/bullet/darkpack/vamp45acp/hp
 	damage = 50
 	armour_penetration = -10
 	exposed_wound_bonus = 5
@@ -84,27 +84,27 @@
 	exposed_wound_bonus = 0
 	wound_bonus = 10
 
-/obj/projectile/bullet/darkpack/vamp44/EP
+/obj/projectile/bullet/darkpack/vamp44/ep
 	damage = 33
 	armour_penetration = 90
 	exposed_wound_bonus = -10
 	wound_bonus = 10
 
-/obj/projectile/bullet/darkpack/vamp44/HP
+/obj/projectile/bullet/darkpack/vamp44/hp
 	damage = 60
 	armour_penetration = 10
 	exposed_wound_bonus = 10
 	wound_bonus = 15
 	weak_against_armour = TRUE
 
-/obj/projectile/bullet/darkpack/vamp44/WP
+/obj/projectile/bullet/darkpack/vamp44/wp
 	damage = 50
 	armour_penetration = 15
 	exposed_wound_bonus = 5
 	wound_bonus = 10
 	var/fire_stacks = 5
 
-/obj/projectile/bullet/darkpack/vamp44/WP/on_hit(atom/target, blocked = 0, pierce_hit)
+/obj/projectile/bullet/darkpack/vamp44/wp/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
 	do_sparks(2, TRUE, src)
 	if(iscarbon(target))
@@ -124,26 +124,26 @@
 	wound_bonus = 10
 	sharpness = SHARP_EDGED
 
-/obj/projectile/bullet/darkpack/vamp50ae/AP
+/obj/projectile/bullet/darkpack/vamp50ae/ap
 	damage = 50
 	armour_penetration = 75
 	exposed_wound_bonus = 0
 	wound_bonus = 15
 
-/obj/projectile/bullet/darkpack/vamp50ae/HP
+/obj/projectile/bullet/darkpack/vamp50ae/hp
 	damage = 80
 	armour_penetration = 0
 	exposed_wound_bonus = 15
 	wound_bonus = 20
 
-/obj/projectile/bullet/darkpack/vamp50ae/WP
+/obj/projectile/bullet/darkpack/vamp50ae/wp
 	damage = 70
 	armour_penetration = -10
 	exposed_wound_bonus = 10
 	wound_bonus = 15
 	var/fire_stacks = 6
 
-/obj/projectile/bullet/darkpack/vamp50ae/WP/on_hit(atom/target, blocked = 0, pierce_hit)
+/obj/projectile/bullet/darkpack/vamp50ae/wp/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
 	do_sparks(2, TRUE, src)
 	if(iscarbon(target))
@@ -151,7 +151,7 @@
 		M.adjust_fire_stacks(fire_stacks)
 		M.ignite_mob()
 
-/obj/projectile/bullet/darkpack/vamp50ae/HE
+/obj/projectile/bullet/darkpack/vamp50ae/he
 	damage = 100
 	armour_penetration = 30
 	exposed_wound_bonus = 20
@@ -169,13 +169,13 @@
 	exposed_wound_bonus = -10
 	wound_bonus = 5
 
-/obj/projectile/bullet/darkpack/vamp556mm/AP
+/obj/projectile/bullet/darkpack/vamp556mm/ap
 	damage = 28
 	armour_penetration = 65
 	exposed_wound_bonus = -20
 	wound_bonus = 0
 
-/obj/projectile/bullet/darkpack/vamp556mm/HP
+/obj/projectile/bullet/darkpack/vamp556mm/hp
 	damage = 45
 	armour_penetration = 20
 	exposed_wound_bonus = 10
@@ -198,13 +198,13 @@
 	exposed_wound_bonus = -10
 	wound_bonus = 10
 
-/obj/projectile/bullet/darkpack/vamp545mm/AP
+/obj/projectile/bullet/darkpack/vamp545mm/ap
 	damage = 25
 	armour_penetration = 70
 	exposed_wound_bonus = -20
 	wound_bonus = 5
 
-/obj/projectile/bullet/darkpack/vamp545mm/HP
+/obj/projectile/bullet/darkpack/vamp545mm/hp
 	damage = 40
 	armour_penetration = 15
 	exposed_wound_bonus = 5
@@ -233,13 +233,13 @@
 	exposed_wound_bonus = -5
 	wound_bonus = 10
 
-/obj/projectile/bullet/darkpack/vamp762x51mm/AP
+/obj/projectile/bullet/darkpack/vamp762x51mm/ap
 	damage = 48
 	armour_penetration = 75
 	exposed_wound_bonus = -15
 	wound_bonus = 5
 
-/obj/projectile/bullet/darkpack/vamp762x51mm/HP
+/obj/projectile/bullet/darkpack/vamp762x51mm/hp
 	damage = 65
 	armour_penetration = 20
 	exposed_wound_bonus = 5
@@ -271,7 +271,7 @@
 	wound_bonus = 20
 	sharpness = SHARP_EDGED
 
-/obj/projectile/bullet/darkpack/vamp50/DU
+/obj/projectile/bullet/darkpack/vamp50/du
 	damage = 180
 	armour_penetration = 100
 	exposed_wound_bonus = 0
@@ -296,14 +296,14 @@
 	ricochet_decay_chance = 0.5
 	weak_against_armour = TRUE
 
-/obj/projectile/bullet/darkpack/vamp50/API
+/obj/projectile/bullet/darkpack/vamp50/api
 	damage = 180
 	armour_penetration = 100
 	exposed_wound_bonus = 20
 	wound_bonus = 30
 	var/fire_stacks = 8
 
-/obj/projectile/bullet/darkpack/vamp50/API/on_hit(atom/target, blocked = 0, pierce_hit)
+/obj/projectile/bullet/darkpack/vamp50/api/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
 	do_sparks(2, TRUE, src)
 	if(iscarbon(target))
@@ -341,20 +341,20 @@
 	exposed_wound_bonus = 10
 	sharpness = SHARP_EDGED
 
-/obj/projectile/bullet/shotgun_slug/vamp/AP
+/obj/projectile/bullet/shotgun_slug/vamp/ap
 	damage = 70
 	armour_penetration = 50
 	exposed_wound_bonus = 5
 	wound_bonus = 10
 
-/obj/projectile/bullet/shotgun_slug/vamp/RIP
+/obj/projectile/bullet/shotgun_slug/vamp/rip
 	damage = 100
 	armour_penetration = 10
 	exposed_wound_bonus = 15
 	wound_bonus = 20
 	weak_against_armour = TRUE
 
-/obj/projectile/bullet/shotgun_slug/vamp/HE
+/obj/projectile/bullet/shotgun_slug/vamp/he
 	damage = 120
 	armour_penetration = 40
 	exposed_wound_bonus = 20

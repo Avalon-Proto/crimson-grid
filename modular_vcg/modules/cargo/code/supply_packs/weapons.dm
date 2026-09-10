@@ -2,14 +2,14 @@
 	name = "Ammo (9mm Hollowpoints)"
 	desc = "Contains 3 boxes of hollowpoint 9mm ammunition."
 	cost = 300
-	contains = list(/obj/item/ammo_box/darkpack/c9mm/HP, /obj/item/ammo_box/darkpack/c9mm/HP, /obj/item/ammo_box/darkpack/c9mm/HP)
+	contains = list(/obj/item/ammo_box/darkpack/c9mm/hp, /obj/item/ammo_box/darkpack/c9mm/hp, /obj/item/ammo_box/darkpack/c9mm/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo9mm/ap
 	name = "Ammo (9mm AP)"
 	desc = "Contains 3 boxes of armor-piercing 9mm ammunition."
 	cost = 500
-	contains = list(/obj/item/ammo_box/darkpack/c9mm/AP, /obj/item/ammo_box/darkpack/c9mm/AP, /obj/item/ammo_box/darkpack/c9mm/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c9mm/ap, /obj/item/ammo_box/darkpack/c9mm/ap, /obj/item/ammo_box/darkpack/c9mm/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo45acp/plus
@@ -23,84 +23,84 @@
 	name = "Ammo (.45 ACP AP)"
 	desc = "Contains 3 boxes of armor-piercing .45 ACP ammunition."
 	cost = 900
-	contains = list(/obj/item/ammo_box/darkpack/c45acp/AP, /obj/item/ammo_box/darkpack/c45acp/AP, /obj/item/ammo_box/darkpack/c45acp/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c45acp/ap, /obj/item/ammo_box/darkpack/c45acp/ap, /obj/item/ammo_box/darkpack/c45acp/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo45acp/wp
 	name = "Ammo (.45 ACP WP)"
 	desc = "Contains 1 box of white-phosphorus .45 ACP ammunition."
 	cost = 1200
-	contains = list(/obj/item/ammo_box/darkpack/c45acp/WP)
+	contains = list(/obj/item/ammo_box/darkpack/c45acp/wp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo44/ep
 	name = "Ammo (.44 Mag EP)"
 	desc = "Contains 1 box of .44 Magnum extreme penetrator ammunition."
 	cost = 900
-	contains = list(/obj/item/ammo_box/darkpack/c44/EP)
+	contains = list(/obj/item/ammo_box/darkpack/c44/ep)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo44/hp
 	name = "Ammo (.44 Mag HP)"
 	desc = "Contains 3 boxes of hollowpoint .44 Magnum ammunition."
 	cost = 750
-	contains = list(/obj/item/ammo_box/darkpack/c44/HP, /obj/item/ammo_box/darkpack/c44/HP, /obj/item/ammo_box/darkpack/c44/HP)
+	contains = list(/obj/item/ammo_box/darkpack/c44/hp, /obj/item/ammo_box/darkpack/c44/hp, /obj/item/ammo_box/darkpack/c44/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo44/wp
 	name = "Ammo (.44 Mag Wiley Pete)"
 	desc = "Contains 1 box of white-phosphorus .44 Magnum ammunition."
 	cost = 1500
-	contains = list(/obj/item/ammo_box/darkpack/c44/WP)
+	contains = list(/obj/item/ammo_box/darkpack/c44/wp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo46pdw/ap
 	name = "Ammo (4.6mm AP)"
 	desc = "Contains 3 boxes of armor-piercing 4.6mm ammunition."
 	cost = 1200
-	contains = list(/obj/item/ammo_box/darkpack/c46pdw/AP, /obj/item/ammo_box/darkpack/c46pdw/AP, /obj/item/ammo_box/darkpack/c46pdw/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c46pdw/ap, /obj/item/ammo_box/darkpack/c46pdw/ap, /obj/item/ammo_box/darkpack/c46pdw/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50ae/ap
 	name = "Ammo (.50 AE AP)"
 	desc = "Contains 1 box of armor-piercing .50 AE ammunition."
 	cost = 2000
-	contains = list(/obj/item/ammo_box/darkpack/c50ae/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c50ae/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50ae/hp
 	name = "Ammo (.50 AE HP)"
 	desc = "Contains 1 box of hollowpoint .50 AE ammunition."
 	cost = 2500
-	contains = list(/obj/item/ammo_box/darkpack/c50ae/HP)
+	contains = list(/obj/item/ammo_box/darkpack/c50ae/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50ae/wp
 	name = "Ammo (.50 AE Wiley Pete)"
 	desc = "Contains 1 box of white-phosphorus .50 AE ammunition."
 	cost = 3000
-	contains = list(/obj/item/ammo_box/darkpack/c50ae/WP)
+	contains = list(/obj/item/ammo_box/darkpack/c50ae/wp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50ae/he
 	name = "Ammo (.50 AE HE)"
 	desc = "Contains 1 box of high-explosive .50 AE ammunition."
 	cost = 3000
-	contains = list(/obj/item/ammo_box/darkpack/c50ae/HE)
+	contains = list(/obj/item/ammo_box/darkpack/c50ae/he)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo545/ap
 	name = "Ammo (5.45mm AP)"
 	desc = "Contains 3 boxes of armor-piercing 5.45mm ammunition."
 	cost = 1200
-	contains = list(/obj/item/ammo_box/darkpack/c545/AP, /obj/item/ammo_box/darkpack/c545/AP, /obj/item/ammo_box/darkpack/c545/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c545/ap, /obj/item/ammo_box/darkpack/c545/ap, /obj/item/ammo_box/darkpack/c545/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo545/hp
 	name = "Ammo (5.45mm HP)"
 	desc = "Contains 3 boxes of hollowpoint 5.45mm ammunition."
 	cost = 1100
-	contains = list(/obj/item/ammo_box/darkpack/c545/HP, /obj/item/ammo_box/darkpack/c545/HP, /obj/item/ammo_box/darkpack/c545/HP)
+	contains = list(/obj/item/ammo_box/darkpack/c545/hp, /obj/item/ammo_box/darkpack/c545/hp, /obj/item/ammo_box/darkpack/c545/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo545/incendiary
@@ -111,38 +111,38 @@
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo556/ap
-	name = "Ammo (5.56mm AP)"
+	name = "Ammo (5.56mm ap)"
 	desc = "Contains 3 boxes of armor-piercing 5.56mm ammunition."
 	cost = 1250
-	contains = list(/obj/item/ammo_box/darkpack/c556/AP, /obj/item/ammo_box/darkpack/c556/AP, /obj/item/ammo_box/darkpack/c556/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c556/ap, /obj/item/ammo_box/darkpack/c556/ap, /obj/item/ammo_box/darkpack/c556/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo556/hp
 	name = "Ammo (5.56mm HP)"
 	desc = "Contains 3 boxes of hollowpoint 5.56mm ammunition."
 	cost = 1250
-	contains = list(/obj/item/ammo_box/darkpack/c556/HP, /obj/item/ammo_box/darkpack/c556/HP, /obj/item/ammo_box/darkpack/c556/HP)
+	contains = list(/obj/item/ammo_box/darkpack/c556/hp, /obj/item/ammo_box/darkpack/c556/hp, /obj/item/ammo_box/darkpack/c556/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo762x51/ap
 	name = "Ammo (7.62x51mm AP)"
 	desc = "Contains 3 boxes of armor-piercing 7.62x51mm ammunition."
 	cost = 1250
-	contains = list(/obj/item/ammo_box/darkpack/c762x51mm/AP, /obj/item/ammo_box/darkpack/c762x51mm/AP, /obj/item/ammo_box/darkpack/c762x51mm/AP)
+	contains = list(/obj/item/ammo_box/darkpack/c762x51mm/ap, /obj/item/ammo_box/darkpack/c762x51mm/ap, /obj/item/ammo_box/darkpack/c762x51mm/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo762x51/hp
 	name = "Ammo (7.62x51mm HP)"
 	desc = "Contains 3 boxes of hollowpoint 7.62x51mm ammunition."
 	cost = 1300
-	contains = list(/obj/item/ammo_box/darkpack/c762x51mm/HP, /obj/item/ammo_box/darkpack/c762x51mm/HP, /obj/item/ammo_box/darkpack/c762x51mm/HP)
+	contains = list(/obj/item/ammo_box/darkpack/c762x51mm/hp, /obj/item/ammo_box/darkpack/c762x51mm/hp, /obj/item/ammo_box/darkpack/c762x51mm/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50bmg/du
 	name = "Ammo (.50 BMG DU)"
 	desc = "Contains 1 box of depleted uranium .50 BMG ammunition."
 	cost = 3000
-	contains = list(/obj/item/ammo_box/darkpack/c50/DU)
+	contains = list(/obj/item/ammo_box/darkpack/c50/du)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50bmg/rauf
@@ -163,21 +163,28 @@
 	name = "Ammo (.50 BMG API)"
 	desc = "Contains 1 boxes of armor-piercing incendiary .50 BMG ammunition."
 	cost = 3000
-	contains = list(/obj/item/ammo_box/darkpack/c50/API)
+	contains = list(/obj/item/ammo_box/darkpack/c50/api)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo12g/rip
 	name = "Ammo (12g RIP slugs)"
 	desc = "Contains 3 boxes of RIP slug 12 gauge ammunition."
 	cost = 1000
-	contains = list(/obj/item/ammo_box/darkpack/c12g/RIP, /obj/item/ammo_box/darkpack/c12g/RIP, /obj/item/ammo_box/darkpack/c12g/RIP)
+	contains = list(/obj/item/ammo_box/darkpack/c12g/rip, /obj/item/ammo_box/darkpack/c12g/rip, /obj/item/ammo_box/darkpack/c12g/rip)
+	crate_name = "ammo crate"
+
+/datum/supply_pack/weapons/ammo12g/apslug
+	name = "Ammo (12g AP slugs)"
+	desc = "Contains 3 boxes of AP slug 12 gauge ammunition."
+	cost = 1000
+	contains = list(/obj/item/ammo_box/darkpack/c12g/ap, /obj/item/ammo_box/darkpack/c12g/ap, /obj/item/ammo_box/darkpack/c12g/ap)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo12g/he
 	name = "Ammo (12g HE slugs)"
 	desc = "Contains 1 box of high-explosive 12 gauge ammunition."
 	cost = 4000
-	contains = list(/obj/item/ammo_box/darkpack/c12g/HE)
+	contains = list(/obj/item/ammo_box/darkpack/c12g/he)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo12g/flech

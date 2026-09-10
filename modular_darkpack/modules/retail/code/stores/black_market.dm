@@ -29,11 +29,11 @@
 		new /datum/data/vending_product("Compact Medical Kit", /obj/item/storage/medkit/tactical_lite, 1125),
 		new /datum/data/vending_product("Coroner's Surgical Kit", /obj/item/storage/medkit/coroner, 750),
 // CRIMSON EDIT ADD END - Medkit to Pharmacy
-		new /datum/data/vending_product("silver 9mm ammo", /obj/item/ammo_box/darkpack/c9mm/silver, 5000),
-		new /datum/data/vending_product("silver .45 ACP ammo", /obj/item/ammo_box/darkpack/c45acp/silver, 6000),
-		new /datum/data/vending_product("silver .44 ammo", /obj/item/ammo_box/darkpack/c44/silver, 7000),
-		new /datum/data/vending_product("silver 5.56 ammo", /obj/item/ammo_box/darkpack/c556/silver, 8000),
-		new /datum/data/vending_product("incendiary 5.56 ammo", /obj/item/ammo_box/darkpack/c556/incendiary, 9000),
+		new /datum/data/vending_product("silver 9mm ammo", /obj/item/ammo_box/darkpack/c9mm/silver, 2000), // Crimson Grid Edit - Was 5000
+		new /datum/data/vending_product("silver .45 ACP ammo", /obj/item/ammo_box/darkpack/c45acp/silver, 2500), // Crimson Grid Edit - Was 6000
+		new /datum/data/vending_product("silver .44 ammo", /obj/item/ammo_box/darkpack/c44/silver, 3000), // Crimson Grid Edit - Was 7000
+		new /datum/data/vending_product("silver 5.56 ammo", /obj/item/ammo_box/darkpack/c556/silver, 3000), // Crimson Grid Edit - Was 8000
+		new /datum/data/vending_product("incendiary 5.56 ammo", /obj/item/ammo_box/darkpack/c556/incendiary, 3000), // Crimson Grid Edit - Was 9000
 // CRIMSON EDIT START - Armory Ammunition Additions - Eventually wanna lock these behind high streetwise skill, can lower prices then
 		new /datum/data/vending_product(".45 Wiley Pete ammo", /obj/item/ammo_box/darkpack/c45acp/WP, 3000),
 		new /datum/data/vending_product(".44 Wiley Pete ammo", /obj/item/ammo_box/darkpack/c44/WP, 3000),
