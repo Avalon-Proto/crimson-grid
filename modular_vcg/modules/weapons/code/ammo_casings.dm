@@ -90,7 +90,7 @@
 /obj/item/ammo_casing/vampire/c50/api
 	name = ".50 BMG api round"
 	desc = "A .50 BMG armor-piercing incendiary round, punching through armor and setting your foe alight."
-	projectile_type = /obj/projectile/bullet/darkpack/vamp50/apI
+	projectile_type = /obj/projectile/bullet/darkpack/vamp50/api
 
 // 5.56mm NATO
 /obj/item/ammo_casing/vampire/c556mm/ap
