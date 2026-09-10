@@ -58,6 +58,7 @@
 /obj/item/ammo_box/darkpack/c50ae/HE
 	name = "ammo box (.50 AE HE)"
 	ammo_type = /obj/item/ammo_casing/vampire/c50ae/HE
+	max_ammo = 30
 
 // Rifle Calibers
 
@@ -97,10 +98,12 @@
 /obj/item/ammo_box/darkpack/c50/DU
 	name = "ammo box (.50 BMG DU)"
 	ammo_type = /obj/item/ammo_casing/vampire/c50/DU
+	max_ammo = 25
 
 /obj/item/ammo_box/darkpack/c50/rauf
 	name = "ammo box (.50 BMG raufauss)"
 	ammo_type = /obj/item/ammo_casing/vampire/c50/rauf
+	max_ammo = 25
 
 /obj/item/ammo_box/darkpack/c50/ratshot
 	name = "ammo box (.50 BMG ratshot)"
@@ -121,6 +124,7 @@
 /obj/item/ammo_box/darkpack/c12g/HE
 	name = "ammo box (12g HE slugs)"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/HE
+	max_ammo = 30
 
 /obj/item/ammo_box/darkpack/c12g/buck/flech
 	name = "ammo box (12g flechette shells)"
