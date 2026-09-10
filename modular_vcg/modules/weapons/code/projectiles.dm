@@ -58,6 +58,14 @@
 	armour_penetration = -10
 	var/fire_stacks = 4
 
+/obj/projectile/bullet/darkpack/vamp45acp/WP/on_hit(atom/target, blocked = 0, pierce_hit)
+	. = ..()
+	do_sparks(2, TRUE, src)
+	if(iscarbon(target))
+		var/mob/living/carbon/M = target
+		M.adjust_fire_stacks(fire_stacks)
+		M.ignite_mob()
+
 /obj/projectile/bullet/darkpack/vamp45acp/silver
 	armour_penetration = 0
 
@@ -96,6 +104,14 @@
 	wound_bonus = 10
 	var/fire_stacks = 5
 
+/obj/projectile/bullet/darkpack/vamp44/WP/on_hit(atom/target, blocked = 0, pierce_hit)
+	. = ..()
+	do_sparks(2, TRUE, src)
+	if(iscarbon(target))
+		var/mob/living/carbon/M = target
+		M.adjust_fire_stacks(fire_stacks)
+		M.ignite_mob()
+
 /obj/projectile/bullet/darkpack/vamp44/silver
 	exposed_wound_bonus = -5
 
@@ -126,6 +142,14 @@
 	exposed_wound_bonus = 10
 	wound_bonus = 15
 	var/fire_stacks = 6
+
+/obj/projectile/bullet/darkpack/vamp50ae/WP/on_hit(atom/target, blocked = 0, pierce_hit)
+	. = ..()
+	do_sparks(2, TRUE, src)
+	if(iscarbon(target))
+		var/mob/living/carbon/M = target
+		M.adjust_fire_stacks(fire_stacks)
+		M.ignite_mob()
 
 /obj/projectile/bullet/darkpack/vamp50ae/HE
 	damage = 100
@@ -194,6 +218,14 @@
 	wound_bonus = 10
 	var/fire_stacks = 2
 
+/obj/projectile/bullet/darkpack/vamp545mm/incendiary/on_hit(atom/target, blocked = 0, pierce_hit)
+	. = ..()
+	do_sparks(2, TRUE, src)
+	if(iscarbon(target))
+		var/mob/living/carbon/M = target
+		M.adjust_fire_stacks(fire_stacks)
+		M.ignite_mob()
+
 // 7.62x51mm
 
 /obj/projectile/bullet/darkpack/vamp762x51mm
@@ -223,6 +255,14 @@
 	exposed_wound_bonus = 5
 	wound_bonus = 10
 
+/obj/projectile/bullet/darkpack/vamp762x51mm/incendiary/on_hit(atom/target, blocked = 0, pierce_hit)
+	. = ..()
+	do_sparks(2, TRUE, src)
+	if(iscarbon(target))
+		var/mob/living/carbon/M = target
+		M.adjust_fire_stacks(fire_stacks)
+		M.ignite_mob()
+
 // .50 BMG
 /obj/projectile/bullet/darkpack/vamp50
 	damage = 120
@@ -232,11 +272,12 @@
 	sharpness = SHARP_EDGED
 
 /obj/projectile/bullet/darkpack/vamp50/DU
-	damage = 100
+	damage = 180
 	armour_penetration = 100
 	exposed_wound_bonus = 0
 	wound_bonus = 15
 	projectile_phasing = PASSTABLE | PASSGLASS | PASSGRILLE | PASSCLOSEDTURF | PASSMACHINE | PASSSTRUCTURE | PASSDOORS
+	max_pierces = 2
 
 /obj/projectile/bullet/darkpack/vamp50/rauf
 	damage = 200
@@ -262,6 +303,14 @@
 	wound_bonus = 30
 	var/fire_stacks = 8
 
+/obj/projectile/bullet/darkpack/vamp50/API/on_hit(atom/target, blocked = 0, pierce_hit)
+	. = ..()
+	do_sparks(2, TRUE, src)
+	if(iscarbon(target))
+		var/mob/living/carbon/M = target
+		M.adjust_fire_stacks(fire_stacks)
+		M.ignite_mob()
+
 // Shotgun ammunition
 
 /obj/projectile/bullet/darkpack/dragonsbreath
@@ -269,7 +318,6 @@
 	armour_penetration = 0
 	exposed_wound_bonus = 5
 	wound_bonus = 5
-	var/fire_stacks = 2
 
 /obj/projectile/bullet/darkpack/shotpellet
 	damage = 12

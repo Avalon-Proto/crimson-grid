@@ -152,11 +152,13 @@
 	projectile_type = /obj/projectile/bullet/darkpack/shotpellet/flech
 	pellets = 8
 	variance = 20
+	icon_state = "12r"
 
 /obj/item/ammo_casing/vampire/c12g/buck/silver
 	name = "12g silver buckshot shell"
 	desc = "A 12g buckshot shell, loaded with silver pellets. For hunting monsters. As if those existed."
 	projectile_type = /obj/projectile/bullet/darkpack/shotpellet/silver
+	icon_state = "s12"
 
 // Crossbow Bolt
 /obj/item/ammo_casing/caseless/bolt/bodkin
