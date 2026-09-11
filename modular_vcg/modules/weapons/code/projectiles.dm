@@ -297,11 +297,11 @@
 	weak_against_armour = TRUE
 
 /obj/projectile/bullet/darkpack/vamp50/api
-	damage = 180
-	armour_penetration = 100
+	damage = 100
+	armour_penetration = 75
 	exposed_wound_bonus = 20
 	wound_bonus = 30
-	var/fire_stacks = 8
+	var/fire_stacks = 5
 
 /obj/projectile/bullet/darkpack/vamp50/api/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
