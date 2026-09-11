@@ -141,7 +141,7 @@
 	armour_penetration = -10
 	exposed_wound_bonus = 10
 	wound_bonus = 15
-	var/fire_stacks = 6
+	var/fire_stacks = 2
 
 /obj/projectile/bullet/darkpack/vamp50ae/wp/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
