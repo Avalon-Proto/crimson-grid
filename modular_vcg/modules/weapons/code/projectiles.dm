@@ -272,7 +272,7 @@
 	sharpness = SHARP_EDGED
 
 /obj/projectile/bullet/darkpack/vamp50/du
-	damage = 180
+	damage = 150
 	armour_penetration = 100
 	exposed_wound_bonus = 0
 	wound_bonus = 15
@@ -280,11 +280,11 @@
 	max_pierces = 2
 
 /obj/projectile/bullet/darkpack/vamp50/rauf
-	damage = 200
+	damage = 175
 	armour_penetration = 80
 	exposed_wound_bonus = 20
 	wound_bonus = 25
-	dismemberment = 30
+	dismemberment = 50
 	catastropic_dismemberment = TRUE
 
 /obj/projectile/bullet/darkpack/vamp50/ratshot

@@ -103,7 +103,7 @@
 /obj/item/ammo_box/darkpack/c50/rauf
 	name = "ammo box (.50 BMG raufauss)"
 	ammo_type = /obj/item/ammo_casing/vampire/c50/rauf
-	max_ammo = 25
+	max_ammo = 10
 
 /obj/item/ammo_box/darkpack/c50/ratshot
 	name = "ammo box (.50 BMG ratshot)"
