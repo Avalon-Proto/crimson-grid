@@ -400,12 +400,12 @@
 	fera_silver_damage(target, 10)
 
 /obj/projectile/bullet/darkpack/vamp75
-	damage = 150
-	armour_penetration = 60
+	damage = 120
+	armour_penetration = 0
 	exposed_wound_bonus = 15
 	wound_bonus = 15
 	sharpness = SHARP_EDGED
 
 /obj/projectile/bullet/darkpack/vamp75/silver
-	armour_penetration = 50
+	armour_penetration = 2
 
