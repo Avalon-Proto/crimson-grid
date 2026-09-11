@@ -92,14 +92,14 @@
 
 /obj/projectile/bullet/darkpack/vamp44/hp
 	damage = 60
-	armour_penetration = 10
+	armour_penetration = 0
 	exposed_wound_bonus = 10
 	wound_bonus = 15
 	weak_against_armour = TRUE
 
 /obj/projectile/bullet/darkpack/vamp44/wp
 	damage = 50
-	armour_penetration = 15
+	armour_penetration = 10
 	exposed_wound_bonus = 5
 	wound_bonus = 10
 	var/fire_stacks = 5
@@ -177,7 +177,7 @@
 
 /obj/projectile/bullet/darkpack/vamp556mm/hp
 	damage = 45
-	armour_penetration = 20
+	armour_penetration = 10
 	exposed_wound_bonus = 10
 	wound_bonus = 15
 	weak_against_armour = TRUE
@@ -206,7 +206,7 @@
 
 /obj/projectile/bullet/darkpack/vamp545mm/hp
 	damage = 40
-	armour_penetration = 15
+	armour_penetration = 5
 	exposed_wound_bonus = 5
 	wound_bonus = 15
 	weak_against_armour = TRUE
@@ -234,14 +234,14 @@
 	wound_bonus = 10
 
 /obj/projectile/bullet/darkpack/vamp762x51mm/ap
-	damage = 48
+	damage = 38
 	armour_penetration = 75
 	exposed_wound_bonus = -15
 	wound_bonus = 5
 
 /obj/projectile/bullet/darkpack/vamp762x51mm/hp
 	damage = 65
-	armour_penetration = 20
+	armour_penetration = 10
 	exposed_wound_bonus = 5
 	wound_bonus = 15
 	weak_against_armour = TRUE
@@ -385,10 +385,12 @@
 
 /obj/projectile/bullet/crossbow_bolt/broadhead
 	damage = 70
-	armour_penetration = 50
+	armour_penetration = 30
 	exposed_wound_bonus = 40
 	wound_bonus = 40
 	dismemberment = 100
+	weak_against_armour = TRUE
+	sharpness = SHARP_EDGED
 
 /obj/projectile/bullet/crossbow_bolt/silver
 	exposed_wound_bonus = 25
