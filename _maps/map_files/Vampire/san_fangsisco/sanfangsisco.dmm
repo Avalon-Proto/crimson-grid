@@ -30010,7 +30010,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/ghetto)
 "hDK" = (
-/obj/structure/chair/comfy{
+/obj/structure/chair/comfy/darkpack{
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/voivode/voivode,
@@ -46061,7 +46061,7 @@
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
 "lQT" = (
-/obj/structure/chair/comfy/beige{
+/obj/structure/chair/comfy/darkpack{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
