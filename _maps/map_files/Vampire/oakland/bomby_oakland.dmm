@@ -93492,13 +93492,6 @@
 	},
 /turf/open/floor/city/industrial,
 /area/vtm/interior/nosferatu_office)
-"wqE" = (
-/obj/structure/table/wood,
-/obj/effect/decal/shadow,
-/obj/effect/mapping_helpers/door/bash_difficulty/five,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/city/plating,
-/area/vtm/interior/tzimisce_sanctum)
 "wqF" = (
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/chinatown)
@@ -107164,7 +107157,7 @@ bhB
 bhB
 uvs
 dZA
-wqE
+sLE
 sLE
 iiT
 mFs
