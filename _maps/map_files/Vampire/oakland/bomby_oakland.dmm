@@ -49324,7 +49324,6 @@
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/tzimisce_sanctum)
 "lNy" = (
