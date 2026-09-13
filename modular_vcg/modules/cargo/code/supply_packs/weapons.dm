@@ -50,7 +50,7 @@
 /datum/supply_pack/weapons/ammo44/wp
 	name = "Ammo (.44 Mag Wiley Pete)"
 	desc = "Contains 1 box of white-phosphorus .44 Magnum ammunition."
-	cost = 1500
+	cost = 2500
 	contains = list(/obj/item/ammo_box/darkpack/c44/wp)
 	crate_name = "ammo crate"
 
@@ -85,7 +85,7 @@
 /datum/supply_pack/weapons/ammo50ae/he
 	name = "Ammo (.50 AE HE)"
 	desc = "Contains 1 box of high-explosive .50 AE ammunition."
-	cost = 3000
+	cost = 4000
 	contains = list(/obj/item/ammo_box/darkpack/c50ae/he)
 	crate_name = "ammo crate"
 
@@ -106,7 +106,7 @@
 /datum/supply_pack/weapons/ammo545/incendiary
 	name = "Ammo (5.45mm Incendiary)"
 	desc = "Contains 1 box of incendiary 5.45mm ammunition."
-	cost = 2000
+	cost = 3000
 	contains = list(/obj/item/ammo_box/darkpack/c545/incendiary)
 	crate_name = "ammo crate"
 
@@ -141,14 +141,14 @@
 /datum/supply_pack/weapons/ammo50bmg/du
 	name = "Ammo (.50 BMG DU)"
 	desc = "Contains 1 box of depleted uranium .50 BMG ammunition."
-	cost = 3000
+	cost = 5000
 	contains = list(/obj/item/ammo_box/darkpack/c50/du)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo50bmg/rauf
 	name = "Ammo (.50 BMG raufoss)"
 	desc = "Contains 1 boxes of raufoss .50 BMG ammunition."
-	cost = 3500
+	cost = 5000
 	contains = list(/obj/item/ammo_box/darkpack/c50/rauf)
 	crate_name = "ammo crate"
 
@@ -162,7 +162,7 @@
 /datum/supply_pack/weapons/ammo50bmg/api
 	name = "Ammo (.50 BMG API)"
 	desc = "Contains 1 boxes of armor-piercing incendiary .50 BMG ammunition."
-	cost = 3000
+	cost = 5000
 	contains = list(/obj/item/ammo_box/darkpack/c50/api)
 	crate_name = "ammo crate"
 
@@ -183,7 +183,7 @@
 /datum/supply_pack/weapons/ammo12g/he
 	name = "Ammo (12g HE slugs)"
 	desc = "Contains 1 box of high-explosive 12 gauge ammunition."
-	cost = 4000
+	cost = 5000
 	contains = list(/obj/item/ammo_box/darkpack/c12g/he)
 	crate_name = "ammo crate"
 
@@ -225,22 +225,22 @@
 // Redefined prices for Darkpack cargo items
 
 /datum/supply_pack/weapons/ammo12gsilver
-	cost = 2500
+	cost = 3000
 
 /datum/supply_pack/weapons/ammo12g/incendiary
-	cost = 2000
+	cost = 3500
 
 /datum/supply_pack/weapons/ammo9/silver
-	cost = 1200
+	cost = 2000
 
 /datum/supply_pack/weapons/ammo44/silver
-	cost = 1500
+	cost = 2500
 
 /datum/supply_pack/weapons/ammo45/silver
-	cost = 1200
+	cost = 2000
 
 /datum/supply_pack/weapons/ammo556/silver
-	cost = 2000
+	cost = 2500
 
 /datum/supply_pack/weapons/ammo556/incendiart
-	cost = 2000
+	cost = 3000
