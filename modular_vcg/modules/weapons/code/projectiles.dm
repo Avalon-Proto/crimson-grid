@@ -334,7 +334,7 @@
 
 /obj/projectile/bullet/darkpack/shotpellet/silver/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
-	fera_silver_damage(target, 3)
+	fera_silver_damage(target, 1)
 
 /obj/projectile/bullet/shotgun_slug/vamp
 	damage = 80
@@ -348,8 +348,8 @@
 	wound_bonus = 10
 
 /obj/projectile/bullet/shotgun_slug/vamp/rip
-	damage = 100
-	armour_penetration = 10
+	damage = 180
+	armour_penetration = -10
 	exposed_wound_bonus = 15
 	wound_bonus = 20
 	weak_against_armour = TRUE
