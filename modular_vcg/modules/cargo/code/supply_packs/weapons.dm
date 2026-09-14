@@ -85,7 +85,7 @@
 /datum/supply_pack/weapons/ammo50ae/he
 	name = "Ammo (.50 AE HE)"
 	desc = "Contains 1 box of high-explosive .50 AE ammunition."
-	cost = 4000
+	cost = 5000
 	contains = list(/obj/item/ammo_box/darkpack/c50ae/he)
 	crate_name = "ammo crate"
 
@@ -148,7 +148,7 @@
 /datum/supply_pack/weapons/ammo50bmg/rauf
 	name = "Ammo (.50 BMG raufoss)"
 	desc = "Contains 1 boxes of raufoss .50 BMG ammunition."
-	cost = 5000
+	cost = 6000
 	contains = list(/obj/item/ammo_box/darkpack/c50/rauf)
 	crate_name = "ammo crate"
 
@@ -183,7 +183,7 @@
 /datum/supply_pack/weapons/ammo12g/he
 	name = "Ammo (12g HE slugs)"
 	desc = "Contains 1 box of high-explosive 12 gauge ammunition."
-	cost = 5000
+	cost = 6000
 	contains = list(/obj/item/ammo_box/darkpack/c12g/he)
 	crate_name = "ammo crate"
 
