@@ -348,7 +348,7 @@
 	wound_bonus = 10
 
 /obj/projectile/bullet/shotgun_slug/vamp/rip
-	damage = 180
+	damage = 80
 	armour_penetration = -10
 	exposed_wound_bonus = 15
 	wound_bonus = 20
