@@ -152,12 +152,10 @@
 		M.ignite_mob()
 
 /obj/projectile/bullet/darkpack/vamp50ae/he
-	damage = 100
-	armour_penetration = 30
+	damage = 75
+	armour_penetration = 50
 	exposed_wound_bonus = 20
 	wound_bonus = 25
-	dismemberment = 50
-	catastropic_dismemberment = TRUE
 
 // Rifle cartridges
 
@@ -353,6 +351,7 @@
 	exposed_wound_bonus = 15
 	wound_bonus = 20
 	weak_against_armour = TRUE
+	sharpness = SHARP_POINTY
 
 /obj/projectile/bullet/shotgun_slug/vamp/he
 	damage = 120
@@ -388,7 +387,6 @@
 	armour_penetration = 30
 	exposed_wound_bonus = 40
 	wound_bonus = 40
-	dismemberment = 100
 	weak_against_armour = TRUE
 	sharpness = SHARP_EDGED
 
