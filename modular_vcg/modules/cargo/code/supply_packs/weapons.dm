@@ -29,7 +29,7 @@
 /datum/supply_pack/weapons/ammo45acp/wp
 	name = "Ammo (.45 ACP WP)"
 	desc = "Contains 1 box of white-phosphorus .45 ACP ammunition."
-	cost = 1200
+	cost = 2500
 	contains = list(/obj/item/ammo_box/darkpack/c45acp/wp)
 	crate_name = "ammo crate"
 
