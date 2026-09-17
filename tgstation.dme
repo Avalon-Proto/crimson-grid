@@ -8357,7 +8357,6 @@
 #include "modular_vcg\master_files\code\modules\logging\log_category.dm"
 #include "modular_vcg\master_files\code\modules\logging\log_holder.dm"
 #include "modular_vcg\master_files\code\modules\mentor\keybinds.dm"
-#include "modular_vcg\master_files\code\modules\mentor\mentorsay.dm"
 #include "modular_vcg\master_files\code\modules\mocking\client.dm"
 #include "modular_vcg\master_files\code\modules\phones\code\_phone.dm"
 #include "modular_vcg\master_files\code\modules\phones\code\_phone_notifications.dm"
