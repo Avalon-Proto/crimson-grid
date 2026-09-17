@@ -507,7 +507,6 @@
 #include "code\__DEFINES\~~crimson_defines\admin.dm"
 #include "code\__DEFINES\~~crimson_defines\chat.dm"
 #include "code\__DEFINES\~~crimson_defines\jobs.dm"
-#include "code\__DEFINES\~~crimson_defines\keybinding.dm"
 #include "code\__DEFINES\~~crimson_defines\patreon.dm"
 #include "code\__DEFINES\~~crimson_defines\phone.dm"
 #include "code\__DEFINES\~~crimson_defines\plexora.dm"
