@@ -59,6 +59,8 @@ type Testmerge = {
 type ChangelogData = {
   discord_url?: string;
   dates: string[];
+  testmerges: Testmerge[];
+  notices: LobbyNoticesType;
 };
 
 export class ChangelogContent extends Component<any, ChangelogState> {

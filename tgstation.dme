@@ -7732,6 +7732,7 @@
 #include "modular_darkpack\modules\masquerade\code\logging_machine_soundloop.dm"
 #include "modular_darkpack\modules\masquerade\code\masquerade_admin.dm"
 #include "modular_darkpack\modules\masquerade\code\masquerade_contract.dm"
+#include "modular_darkpack\modules\mentor\code\mentorsay.dm"
 #include "modular_darkpack\modules\masquerade\code\masquerade_landmark.dm"
 #include "modular_darkpack\modules\masquerade\code\miscellaneous.dm"
 #include "modular_darkpack\modules\masquerade\code\pref_masquerade.dm"
