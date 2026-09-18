@@ -1,4 +1,3 @@
-/* // CRIMSON EDIT REMOVAL START - improved_changelog
 /datum/changelog
 	var/static/list/changelog_items = list()
 
@@ -44,7 +43,7 @@
 	// DARKPACK EDIT CHANGE END
 
 	return data
-*/ // CRIMSON EDIT REMOVAL END
+
 
 // DARKPACK EDIT ADD START - SPLIT_CHANGELOG
 /datum/asset/simple/server_logos
