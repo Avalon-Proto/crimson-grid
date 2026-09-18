@@ -35909,8 +35909,8 @@
 /turf/open/water,
 /area/vtm/interior/giovanni)
 "iBJ" = (
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
-/obj/item/clothing/head/vampire/pentex_whitehardhat,
+/obj/item/clothing/head/vampire/hardhat/pentex_white,
+/obj/item/clothing/head/vampire/hardhat/pentex_white,
 /obj/item/clothing/gloves/vampire/cleaning,
 /obj/item/clothing/gloves/vampire/cleaning,
 /obj/item/reagent_containers/cup/bucket,
