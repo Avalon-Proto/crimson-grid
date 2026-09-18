@@ -319,13 +319,13 @@ export class ChangelogContent extends Component<any, ChangelogState> {
         </Stack.Item>
       </Stack>
     );
-
+    // CRIMSON EDIT ADD BELOW - Original <h1>Darkpack: Second City</h1> and adds Darkpack: Second City to Thanks To
     const header = (
       <Section>
-        <h1>Darkpack: Second City</h1>
+        <h1>Crimson Grid</h1>
         <p>
           <b>Thanks to: </b>
-          The Final Nights, World of Darkness 13, RequiemSS13, TGstation,
+          Darkpack: Second City, The Final Nights, World of Darkness 13, RequiemSS13, TGstation,
           Baystation 12, /vg/station, NTstation, CDK Station devs,
           FacepunchStation, GoonStation devs, the original Space Station 13
           developers, Invisty for the title image and the countless others who
