@@ -57378,11 +57378,6 @@
 /obj/structure/coclock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
-"ojv" = (
-/obj/structure/chair/stool/bar/darkpack/red,
-/obj/structure/chair/stool/bar/darkpack/black,
-/turf/open/floor/wood/smooth,
-/area/vtm/interior/tzimisce_manor)
 "ojw" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/vampfence/rich{
@@ -288862,7 +288857,7 @@ mtu
 lCp
 hwo
 iUc
-ojv
+jJs
 nmu
 jJs
 bHM
@@ -289119,7 +289114,7 @@ mtu
 bfn
 hwo
 hwo
-ojv
+jJs
 nmu
 nmu
 hZI
