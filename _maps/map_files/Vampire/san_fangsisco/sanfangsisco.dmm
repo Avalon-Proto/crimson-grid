@@ -39707,12 +39707,6 @@
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer/nosferatu_town)
 "jJs" = (
-/obj/structure/chair/stool/bar/darkpack/red,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/structure/chair/stool/bar/darkpack/black,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/tzimisce_manor)
@@ -46368,23 +46362,6 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/financialdistrict)
 "lxD" = (
-/obj/structure/railing{
-	pixel_y = -2
-	},
-/obj/effect/decal/shadow{
-	pixel_y = -32
-	},
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
-	},
-/obj/structure/chair/wood/darkpack/red{
-	dir = 8
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
 	},
@@ -57401,6 +57378,11 @@
 /obj/structure/coclock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
+"ojv" = (
+/obj/structure/chair/stool/bar/darkpack/red,
+/obj/structure/chair/stool/bar/darkpack/black,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/tzimisce_manor)
 "ojw" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/vampfence/rich{
@@ -60878,14 +60860,6 @@
 /area/vtm/outside/pacificheights/forest)
 "pcW" = (
 /obj/structure/chair/comfy/darkpack/dark{
-	dir = 1
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/chair/comfy/darkpack{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
@@ -65900,14 +65874,6 @@
 "qqO" = (
 /obj/structure/railing{
 	dir = 4
-	},
-/obj/structure/chair/wood/darkpack/red{
-	dir = 8
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/chair/wood/darkpack/red{
 	dir = 8
@@ -71876,22 +71842,8 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
 "rJX" = (
-/obj/structure/railing{
-	pixel_y = -2
-	},
-/obj/effect/decal/shadow{
-	pixel_y = -32
-	},
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
-	},
 /obj/structure/chair/wood/darkpack/red{
 	dir = 4
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -91150,6 +91102,20 @@
 	},
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/clinic/haven)
+"wHV" = (
+/obj/effect/decal/shadow{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/chair/wood/darkpack/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/light,
+/obj/structure/railing,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/tzimisce_manor)
 "wIe" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -287357,7 +287323,7 @@ rOo
 bdO
 dlE
 ctX
-rJX
+wHV
 uYk
 uYk
 uYk
@@ -288896,7 +288862,7 @@ mtu
 lCp
 hwo
 iUc
-jJs
+ojv
 nmu
 jJs
 bHM
@@ -289153,7 +289119,7 @@ mtu
 bfn
 hwo
 hwo
-jJs
+ojv
 nmu
 nmu
 hZI
