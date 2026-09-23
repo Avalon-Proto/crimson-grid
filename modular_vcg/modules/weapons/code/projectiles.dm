@@ -354,7 +354,7 @@
 	sharpness = SHARP_POINTY
 
 /obj/projectile/bullet/shotgun_slug/vamp/he
-	damage = 120
+	damage = 90
 	armour_penetration = 40
 	exposed_wound_bonus = 20
 	wound_bonus = 25
@@ -383,7 +383,7 @@
 	wound_bonus = 15
 
 /obj/projectile/bullet/crossbow_bolt/broadhead
-	damage = 70
+	damage = 60
 	armour_penetration = 30
 	exposed_wound_bonus = 40
 	wound_bonus = 40
