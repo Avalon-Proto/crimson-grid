@@ -44,6 +44,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_DIABLERIE "diablerie"
 #define TRAIT_GULLET "gullet"
 #define TRAIT_CHARMER "charmer"
+#define TRAIT_POTENT_BLOOD "potent blood"
+#define TRAIT_FONT_OF_VITAE "font of vitae"
 
 // Mutates the apperance of auras
 #define TRAIT_PALE_AURA "pale_aura"
