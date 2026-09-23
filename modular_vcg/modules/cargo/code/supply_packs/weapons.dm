@@ -64,7 +64,7 @@
 /datum/supply_pack/weapons/ammo50ae/ap
 	name = "Ammo (.50 AE AP)"
 	desc = "Contains 1 box of armor-piercing .50 AE ammunition."
-	cost = 2000
+	cost = 2500
 	contains = list(/obj/item/ammo_box/darkpack/c50ae/ap)
 	crate_name = "ammo crate"
 
@@ -170,7 +170,7 @@
 	name = "Ammo (12g HP slugs)"
 	desc = "Contains 3 boxes of hollowpoint slug 12 gauge ammunition."
 	cost = 1000
-	contains = list(/obj/item/ammo_box/darkpack/c12g/rip, /obj/item/ammo_box/darkpack/c12g/rip, /obj/item/ammo_box/darkpack/c12g/rip)
+	contains = list(/obj/item/ammo_box/darkpack/c12g/hp, /obj/item/ammo_box/darkpack/c12g/hp, /obj/item/ammo_box/darkpack/c12g/hp)
 	crate_name = "ammo crate"
 
 /datum/supply_pack/weapons/ammo12g/apslug
@@ -231,13 +231,13 @@
 	cost = 3500
 
 /datum/supply_pack/weapons/ammo9/silver
-	cost = 2000
+	cost = 2500
 
 /datum/supply_pack/weapons/ammo44/silver
 	cost = 2500
 
 /datum/supply_pack/weapons/ammo45/silver
-	cost = 2000
+	cost = 2500
 
 /datum/supply_pack/weapons/ammo556/silver
 	cost = 2500
