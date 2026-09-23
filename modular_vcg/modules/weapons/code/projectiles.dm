@@ -46,7 +46,7 @@
 	armour_penetration = 0
 
 /obj/projectile/bullet/darkpack/vamp45acp/plus
-	damage = 45
+	damage = 40
 	armour_penetration = 10
 
 /obj/projectile/bullet/darkpack/vamp45acp/ap
@@ -70,7 +70,7 @@
 	armour_penetration = 0
 
 /obj/projectile/bullet/darkpack/vamp45acp/hp
-	damage = 50
+	damage = 45
 	armour_penetration = -10
 	exposed_wound_bonus = 5
 	wound_bonus = 10
@@ -91,7 +91,7 @@
 	wound_bonus = 10
 
 /obj/projectile/bullet/darkpack/vamp44/hp
-	damage = 60
+	damage = 50
 	armour_penetration = 0
 	exposed_wound_bonus = 10
 	wound_bonus = 15
@@ -131,7 +131,7 @@
 	wound_bonus = 15
 
 /obj/projectile/bullet/darkpack/vamp50ae/hp
-	damage = 80
+	damage = 75
 	armour_penetration = 0
 	exposed_wound_bonus = 15
 	wound_bonus = 20
@@ -174,7 +174,7 @@
 	wound_bonus = 0
 
 /obj/projectile/bullet/darkpack/vamp556mm/hp
-	damage = 45
+	damage = 40
 	armour_penetration = 10
 	exposed_wound_bonus = 10
 	wound_bonus = 15
@@ -203,7 +203,7 @@
 	wound_bonus = 5
 
 /obj/projectile/bullet/darkpack/vamp545mm/hp
-	damage = 40
+	damage = 35
 	armour_penetration = 5
 	exposed_wound_bonus = 5
 	wound_bonus = 15
@@ -238,7 +238,7 @@
 	wound_bonus = 5
 
 /obj/projectile/bullet/darkpack/vamp762x51mm/hp
-	damage = 65
+	damage = 55
 	armour_penetration = 10
 	exposed_wound_bonus = 5
 	wound_bonus = 15
@@ -270,8 +270,8 @@
 	sharpness = SHARP_EDGED
 
 /obj/projectile/bullet/darkpack/vamp50/du
-	damage = 150
-	armour_penetration = 100
+	damage = 120
+	armour_penetration = 90
 	exposed_wound_bonus = 0
 	wound_bonus = 15
 	projectile_phasing = PASSTABLE | PASSGLASS | PASSGRILLE | PASSCLOSEDTURF | PASSMACHINE | PASSSTRUCTURE | PASSDOORS
@@ -286,7 +286,7 @@
 	catastropic_dismemberment = TRUE
 
 /obj/projectile/bullet/darkpack/vamp50/ratshot
-	damage = 10
+	damage = 12
 	armour_penetration = -10
 	exposed_wound_bonus = 5
 	wound_bonus = 5
@@ -345,7 +345,7 @@
 	exposed_wound_bonus = 5
 	wound_bonus = 10
 
-/obj/projectile/bullet/shotgun_slug/vamp/rip
+/obj/projectile/bullet/shotgun_slug/vamp/hp
 	damage = 80
 	armour_penetration = -10
 	exposed_wound_bonus = 15

@@ -66,6 +66,8 @@
 // Sniper
 /obj/item/gun/ballistic/automatic/darkpack/sniper
 	recoil = 6
+	item_flags = SLOWS_WHILE_IN_HAND | IMMUTABLE_SLOW
+	slowdown = 3
 
 /obj/item/gun/ballistic/automatic/darkpack/sniper/Initialize(mapload)
 	. = ..()

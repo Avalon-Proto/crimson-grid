@@ -166,9 +166,9 @@
 	contains = list(/obj/item/ammo_box/darkpack/c50/api)
 	crate_name = "ammo crate"
 
-/datum/supply_pack/weapons/ammo12g/rip
-	name = "Ammo (12g RIP slugs)"
-	desc = "Contains 3 boxes of RIP slug 12 gauge ammunition."
+/datum/supply_pack/weapons/ammo12g/hp
+	name = "Ammo (12g HP slugs)"
+	desc = "Contains 3 boxes of hollowpoint slug 12 gauge ammunition."
 	cost = 1000
 	contains = list(/obj/item/ammo_box/darkpack/c12g/rip, /obj/item/ammo_box/darkpack/c12g/rip, /obj/item/ammo_box/darkpack/c12g/rip)
 	crate_name = "ammo crate"

@@ -117,9 +117,9 @@
 // Shotgun Shells
 
 // 12 Gauge
-/obj/item/ammo_box/darkpack/c12g/rip
-	name = "ammo box (12g RIP slugs)"
-	ammo_type = /obj/item/ammo_casing/vampire/c12g/rip
+/obj/item/ammo_box/darkpack/c12g/hp
+	name = "ammo box (12g HP slugs)"
+	ammo_type = /obj/item/ammo_casing/vampire/c12g/hp
 
 /obj/item/ammo_box/darkpack/c12g/he
 	name = "ammo box (12g HE slugs)"
