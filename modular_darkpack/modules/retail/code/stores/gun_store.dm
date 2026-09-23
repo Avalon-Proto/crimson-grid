@@ -41,7 +41,7 @@
 		new /datum/data/vending_product(".44 Magnum HP ammo", /obj/item/ammo_box/darkpack/c44/hp, 1000),
 		new /datum/data/vending_product("7.62x51mm HP ammo", /obj/item/ammo_box/darkpack/c762x51mm/hp, 2000),
 		new /datum/data/vending_product("7.62x51mm AP ammo", /obj/item/ammo_box/darkpack/c762x51mm/ap, 2500),
-		new /datum/data/vending_product("12 gauge RIP slugs", /obj/item/ammo_box/darkpack/c12g/rip, 800),
+		new /datum/data/vending_product("12 gauge HP slugs", /obj/item/ammo_box/darkpack/c12g/hp, 800),
 		new /datum/data/vending_product("12 gauge AP slugs", /obj/item/ammo_box/darkpack/c12g/ap, 800),
 		new /datum/data/vending_product("12 gauge slugs", /obj/item/ammo_box/darkpack/c12g, 400)
 		// CRIMSON GRID ADDITION END - Armory Ammunition Additions

@@ -139,7 +139,7 @@
 /obj/item/ammo_casing/vampire/c12g/hp
 	name = "12g HP slug shell"
 	desc = "A 12g hollowpoint slug. Rip a chunk outta someone."
-	projectile_type = /obj/projectile/bullet/shotgun_slug/vamp/rip
+	projectile_type = /obj/projectile/bullet/shotgun_slug/vamp/hp
 
 /obj/item/ammo_casing/vampire/c12g/he
 	name = "12g HE slug"
