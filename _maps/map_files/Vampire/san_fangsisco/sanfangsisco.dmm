@@ -71836,23 +71836,6 @@
 /obj/structure/hydrant,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
-"rJX" = (
-/obj/structure/chair/wood/darkpack/red{
-	dir = 4
-	},
-/obj/effect/decal/shadow{
-	pixel_y = -32
-	},
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
-	},
-/obj/structure/chair/wood/darkpack/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood/light,
-/obj/structure/railing,
-/turf/open/floor/carpet/red,
-/area/vtm/interior/tzimisce_manor)
 "rKb" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/landmark/npcwall,
@@ -286290,7 +286273,7 @@ rOo
 hiL
 ctX
 ctX
-rJX
+wHV
 uYk
 uYk
 uYk
