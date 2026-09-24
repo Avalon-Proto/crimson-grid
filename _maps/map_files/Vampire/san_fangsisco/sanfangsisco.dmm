@@ -32652,7 +32652,7 @@
 /area/vtm/outside/fishermanswharf/lower)
 "hTl" = (
 /obj/structure/stairs/west,
-/turf/open/space/basic,
+/turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/fed)
 "hTn" = (
 /obj/structure/curtain/bounty,
