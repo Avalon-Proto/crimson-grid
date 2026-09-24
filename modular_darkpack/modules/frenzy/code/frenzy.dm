@@ -88,6 +88,13 @@
 		return
 	if(!get_kindred_splat(src))
 		return
+	if(HAS_TRAIT(src, TRAIT_NEEDS_BLOOD))
+		for(var/mob/living/carbon/human/font_holder in view(DEFAULT_SIGHT_DISTANCE, src))
+			if(HAS_TRAIT(font_holder, TRAIT_FONT_OF_VITAE))
+				difficulty += 2
+				break
+	if(HAS_TRAIT(target, TRAIT_FONT_OF_VITAE) && target.is_bloodied())
+		difficulty = 3
 
 	var/stat_to_roll = is_enlightenment() ? STAT_INSTINCT : STAT_SELF_CONTROL
 	var/datum/storyteller_roll/frenzy/kindred/frenzy_roll = new()

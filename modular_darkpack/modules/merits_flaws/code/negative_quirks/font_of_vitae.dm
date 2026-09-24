@@ -12,10 +12,14 @@
 	forbidden_splats = SPLAT_KINDRED
 
 /datum/quirk/darkpack/font_of_vitae/add(client/client_source)
+	. = ..()
 	quirk_holder.bloodquality = BLOOD_QUALITY_EXCEPTIONAL
+	quirk_holder.maxbloodpool = 20
 	quirk_holder.bloodpool = 20
 
 /datum/quirk/darkpack/font_of_vitae/remove()
+	. = ..()
 	quirk_holder.bloodquality = quirk_holder::bloodquality
+	quirk_holder.maxbloodpool = 10
 	quirk_holder.bloodpool = 10
 

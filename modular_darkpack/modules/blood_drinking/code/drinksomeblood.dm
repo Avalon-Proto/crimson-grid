@@ -50,11 +50,12 @@
 	drunk_from.adjust_blood_pool(-1)
 	suckbar.icon_state = "[round(14*(drunk_from.bloodpool/drunk_from.maxbloodpool))]"
 
+	if(!get_kindred_splat(drunk_from))
+		var/taken_percent = 1 / drunk_from.maxbloodpool
+		var/volume_to_drain = taken_percent * BLOOD_VOLUME_NORMAL
+		drunk_from.adjust_blood_volume(-volume_to_drain, 150)
 	if(ishuman(drunk_from))
 		var/mob/living/carbon/human/H = drunk_from
-		if(!get_kindred_splat(drunk_from))
-			H.blood_volume = max(H.blood_volume-50, 150)
-
 		if(H.reagents)
 			if(length(H.reagents.reagent_list))
 				if(prob(50))
