@@ -8346,7 +8346,7 @@
 "bWs" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/sign/painting/large{
-	pixel_y = 32
+	dir = 1
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
@@ -50987,15 +50987,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
-"mHz" = (
-/obj/structure/plaque/static_plaque/golden{
-	pixel_y = 21;
-	name = "Golden memorial plaque";
-	desc = "A gold emblazened plaque commemorating a long since deceased jazz star.";
-	pixel_x = 0
-	},
-/turf/open/floor/wood/ornate,
-/area/vtm/interior/jazzclub)
 "mHD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -67099,10 +67090,6 @@
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/tzimisce_manor)
-"qEr" = (
-/obj/machinery/light/prince/directional/south,
-/turf/open/floor/plating/sidewalk/rich,
-/area/vtm/outside/park)
 "qEs" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -70170,7 +70157,7 @@
 /area/vtm/outside/financialdistrict)
 "rrl" = (
 /obj/structure/sign/painting/large{
-	pixel_y = 32
+	dir = 1
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/museum)
@@ -71706,7 +71693,7 @@
 	dir = 10
 	},
 /obj/structure/sign/painting/large{
-	pixel_y = 32
+	dir = 1
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
@@ -186785,7 +186772,7 @@ ujA
 ujA
 ujA
 ujA
-qEr
+ujA
 ujA
 ujA
 ujA
@@ -194748,7 +194735,7 @@ bIe
 euo
 mSS
 bJS
-mHz
+bJS
 bxw
 anW
 bIe
@@ -216289,7 +216276,7 @@ fkd
 gEg
 gmZ
 eHF
-cbn
+uzk
 hJH
 miN
 wNo
@@ -216546,7 +216533,7 @@ fkd
 qoU
 qoU
 qoU
-uzk
+cbn
 qoU
 qoU
 qoU
