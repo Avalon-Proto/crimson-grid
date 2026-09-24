@@ -35567,6 +35567,7 @@
 /area/vtm/interior/anarch/basement)
 "iHc" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/ladder/manhole/up,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
 "iHd" = (
@@ -66053,7 +66054,6 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/shop)
 "qtr" = (
-/obj/structure/ladder/manhole/up,
 /obj/structure/curtain/cloth/fancy,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rough,
