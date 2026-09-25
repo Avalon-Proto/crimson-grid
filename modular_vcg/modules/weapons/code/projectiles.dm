@@ -7,8 +7,8 @@
 	exposed_wound_bonus = 10
 
 /obj/projectile/bullet/darkpack/vamp9mm/hp
-	damage = 40
-	exposed_wound_bonus = 15
+	damage = 35
+	exposed_wound_bonus = 20
 	armour_penetration = -5
 	weak_against_armour = TRUE
 
@@ -70,9 +70,9 @@
 	armour_penetration = 0
 
 /obj/projectile/bullet/darkpack/vamp45acp/hp
-	damage = 45
+	damage = 40
 	armour_penetration = -10
-	exposed_wound_bonus = 5
+	exposed_wound_bonus = 25
 	wound_bonus = 10
 	weak_against_armour = TRUE
 
@@ -93,7 +93,7 @@
 /obj/projectile/bullet/darkpack/vamp44/hp
 	damage = 50
 	armour_penetration = 0
-	exposed_wound_bonus = 10
+	exposed_wound_bonus = 20
 	wound_bonus = 15
 	weak_against_armour = TRUE
 
@@ -131,9 +131,9 @@
 	wound_bonus = 15
 
 /obj/projectile/bullet/darkpack/vamp50ae/hp
-	damage = 75
+	damage = 70
 	armour_penetration = 0
-	exposed_wound_bonus = 15
+	exposed_wound_bonus = 30
 	wound_bonus = 20
 
 /obj/projectile/bullet/darkpack/vamp50ae/wp
@@ -176,7 +176,7 @@
 /obj/projectile/bullet/darkpack/vamp556mm/hp
 	damage = 40
 	armour_penetration = 10
-	exposed_wound_bonus = 10
+	exposed_wound_bonus = 20
 	wound_bonus = 15
 	weak_against_armour = TRUE
 
@@ -205,7 +205,7 @@
 /obj/projectile/bullet/darkpack/vamp545mm/hp
 	damage = 35
 	armour_penetration = 5
-	exposed_wound_bonus = 5
+	exposed_wound_bonus = 15
 	wound_bonus = 15
 	weak_against_armour = TRUE
 
@@ -238,9 +238,9 @@
 	wound_bonus = 5
 
 /obj/projectile/bullet/darkpack/vamp762x51mm/hp
-	damage = 55
+	damage = 50
 	armour_penetration = 10
-	exposed_wound_bonus = 5
+	exposed_wound_bonus = 20
 	wound_bonus = 15
 	weak_against_armour = TRUE
 
@@ -263,14 +263,14 @@
 
 // .50 BMG
 /obj/projectile/bullet/darkpack/vamp50
-	damage = 120
-	armour_penetration = 95
+	damage = 100
+	armour_penetration = 80
 	exposed_wound_bonus = -10
 	wound_bonus = 20
 	sharpness = SHARP_EDGED
 
 /obj/projectile/bullet/darkpack/vamp50/du
-	damage = 120
+	damage = 100
 	armour_penetration = 90
 	exposed_wound_bonus = 0
 	wound_bonus = 15
@@ -278,7 +278,7 @@
 	max_pierces = 2
 
 /obj/projectile/bullet/darkpack/vamp50/rauf
-	damage = 175
+	damage = 150
 	armour_penetration = 80
 	exposed_wound_bonus = 20
 	wound_bonus = 25
