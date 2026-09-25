@@ -108,7 +108,7 @@
 	max_ammo = 8
 
 /obj/item/ammo_box/magazine/darkpack45smg
-	name = ".45 SMG magazine"
+	name = "9mm SMG magazine"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm
 	caliber = CALIBER_9MMPARA
 
