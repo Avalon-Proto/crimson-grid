@@ -50,7 +50,7 @@
 
 /obj/item/gun/ballistic/automatic/darkpack/huntrifle/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/scope, range_modifier = 3)
+	AddComponent(/datum/component/scope, range_modifier = 1.5)
 
 /obj/item/gun/ballistic/automatic/darkpack/ak74
 	recoil = 3
