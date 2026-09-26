@@ -8,6 +8,9 @@
 	name = "ammo box (9mm AP)"
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm/ap
 
+/obj/item/ammo_box/darkpack/c9mm/silver
+	desc = "The box has the familiar face of Action Bill, stating 'Remember kids, ANYONE could be a shapeshifter!'. but thats just how they seel these to you."
+
 // .45 ACP
 /obj/item/ammo_box/darkpack/c45acp/plus
 	name = "ammo box (.45 ACP +P)"
@@ -22,6 +25,9 @@
 	ammo_type = /obj/item/ammo_casing/vampire/c45acp/wp
 	icon_state = "incendiary"
 
+/obj/item/ammo_box/darkpack/c45acp/silver
+	desc = "The box shows Action Bill, shooting a werewolf from a popular game by Avalon Industries. Ahhh the memories"
+
 // .44 Magnum
 /obj/item/ammo_box/darkpack/c44/ep
 	name = "ammo box (.44 Mag EP)"
@@ -35,6 +41,9 @@
 	name = "ammo box (.44 Mag Wiley Pete)"
 	ammo_type = /obj/item/ammo_casing/vampire/c44/wp
 	icon_state = "incendiary"
+
+/obj/item/ammo_box/darkpack/c44/silver
+	desc = "This box has Action Bill smoking a cigar he lit with the muzzle flash of a revolver."
 
 // 4.6mm HK
 /obj/item/ammo_box/darkpack/c46pdw/ap
@@ -85,6 +94,9 @@
 	name = "ammo box (5.56mm HP)"
 	ammo_type = /obj/item/ammo_casing/vampire/c556mm/hp
 
+/obj/item/ammo_box/darkpack/c556/silver
+	desc = "The box depicts Action Bill mowing down wolves with some sorta machine gun loaded with these silver bullets. Flashy and expensive"
+
 // 7.62x51mm NATO
 /obj/item/ammo_box/darkpack/c762x51mm/ap
 	name = "ammo box (7.62x51mm AP)"
@@ -103,7 +115,7 @@
 /obj/item/ammo_box/darkpack/c50/rauf
 	name = "ammo box (.50 BMG raufauss)"
 	ammo_type = /obj/item/ammo_casing/vampire/c50/rauf
-	max_ammo = 10
+	max_ammo = 5
 
 /obj/item/ammo_box/darkpack/c50/ratshot
 	name = "ammo box (.50 BMG ratshot)"
@@ -137,8 +149,12 @@
 
 /obj/item/ammo_box/darkpack/c12g/buck/silver
 	name = "ammo box (12g silver buckshot shell)"
+	desc = "The box shows Action Bill blasting a war wolf leaping at him with silver buckshot. Too bad they arent real."
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/buck/silver
 	icon_state = "12box_silver"
+
+/obj/item/ammo_box/darkpack/c12g/silver
+	desc = "The box shows Action Bill holding a sawn of double barrel, loading in two new slugs over the corpse of a giant wolf. How cheesy."
 
 // Exotic Ammo
 
@@ -153,6 +169,11 @@
 
 /obj/item/ammo_box/darkpack/arrows/silver
 	name = "ammo box (silver bolts)"
+	desc = "The box shows Action Bill shooting out the eye of an Eco-Terrorist with his trusty crossbow, grinning madly as he does."
 	ammo_type = /obj/item/ammo_casing/caseless/bolt/silver
 
+// Musket Ammo
+
+/obj/item/ammo_box/darkpack/c75/silver
+	desc = "The bag has Action Bill emblazoned on the front, holding the head of a dead wolf and a still smoking musket. Vintage merchandise"
 
