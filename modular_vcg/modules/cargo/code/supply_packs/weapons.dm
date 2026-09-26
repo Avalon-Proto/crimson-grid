@@ -106,7 +106,7 @@
 /datum/supply_pack/weapons/ammo545/incendiary
 	name = "Ammo (5.45mm Incendiary)"
 	desc = "Contains 1 box of incendiary 5.45mm ammunition."
-	cost = 3000
+	cost = 4000
 	contains = list(/obj/item/ammo_box/darkpack/c545/incendiary)
 	crate_name = "ammo crate"
 
