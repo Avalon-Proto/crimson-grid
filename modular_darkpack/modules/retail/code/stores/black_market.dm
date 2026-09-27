@@ -19,8 +19,8 @@
 		new /datum/data/vending_product("Handcuffs", /obj/item/restraints/handcuffs, 50),
 		new /datum/data/vending_product("Black bag", /obj/item/clothing/head/vampire/blackbag, 50),
 		new /datum/data/vending_product("snub-nose revolver", /obj/item/gun/ballistic/revolver/darkpack/snub, 100),
-		new /datum/data/vending_product("Braddock .45 submachine gun", /obj/item/gun/ballistic/automatic/darkpack/mac10, 1200),
-		new /datum/data/vending_product("Braddock .45 magazine", /obj/item/ammo_box/magazine/darkpack45smg, 300), // CRIMSON EDIT ADD - Braddock Mags Buyable
+		new /datum/data/vending_product("Braddock 9mm submachine gun", /obj/item/gun/ballistic/automatic/darkpack/mac10, 1200), // CRIMSON EDIT - Was .45 ACP
+		new /datum/data/vending_product("Braddock 9mm magazine", /obj/item/ammo_box/magazine/darkpack45smg, 300), // CRIMSON EDIT ADD - Braddock Mags Buyable
 		new /datum/data/vending_product("cannabis package", /obj/item/food/grown/cannabis, 700),
 		new /datum/data/vending_product("morphine syringe", /obj/item/reagent_containers/syringe/contraband/morphine, 800),
 		new /datum/data/vending_product("meth package", /obj/item/reagent_containers/cup/glass/baggie/meth, 800),
@@ -39,7 +39,7 @@
 		new /datum/data/vending_product(".44 Wiley Pete ammo", /obj/item/ammo_box/darkpack/c44/wp, 3000),
 		new /datum/data/vending_product(".50 AE Wiley Pete ammo", /obj/item/ammo_box/darkpack/c50ae/wp, 4000),
 		new /datum/data/vending_product(".50 AE HE ammo", /obj/item/ammo_box/darkpack/c50ae/he, 7000),
-		new /datum/data/vending_product("5.45 incendiary ammo", /obj/item/ammo_box/darkpack/c545/incendiary, 4500),
+		new /datum/data/vending_product("5.45 incendiary ammo", /obj/item/ammo_box/darkpack/c545/incendiary, 5000),
 		new /datum/data/vending_product(".50 BMG DU ammo", /obj/item/ammo_box/darkpack/c50/du, 6500),
 		new /datum/data/vending_product(".50 BMG API ammo", /obj/item/ammo_box/darkpack/c50/api, 6500),
 		new /datum/data/vending_product(".50 BMG raufoss ammo", /obj/item/ammo_box/darkpack/c50/rauf, 7500),
