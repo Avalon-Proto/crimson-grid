@@ -9,7 +9,7 @@
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm/ap
 
 /obj/item/ammo_box/darkpack/c9mm/silver
-	desc = "The box has the familiar face of Action Bill, stating 'Remember kids, ANYONE could be a shapeshifter!'. but thats just how they seel these to you."
+	desc = "The box has the familiar face of Action Bill, stating 'Remember kids, ANYONE could be a shapeshifter!'. but thats just how they sell these to you."
 
 // .45 ACP
 /obj/item/ammo_box/darkpack/c45acp/plus
