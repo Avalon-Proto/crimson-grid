@@ -9,7 +9,7 @@
 	ammo_type = /obj/item/ammo_casing/vampire/c9mm/ap
 
 /obj/item/ammo_box/darkpack/c9mm/silver
-	desc = "The box has the familiar face of Action Bill, stating 'Remember kids, ANYONE could be a shapeshifter!'. but thats just how they sell these to you."
+	desc = "The box has the familiar face of Action Bill, stating 'Remember kids, ANYONE could be a shapeshifter!'. but thats just how they sell these to you. Sponsored by Avalon Industries."
 
 // .45 ACP
 /obj/item/ammo_box/darkpack/c45acp/plus
@@ -26,7 +26,7 @@
 	icon_state = "incendiary"
 
 /obj/item/ammo_box/darkpack/c45acp/silver
-	desc = "The box shows Action Bill, shooting a werewolf from a popular game by Avalon Industries. Ahhh the memories"
+	desc = "The box shows Action Bill, shooting a werewolf from a popular game by Avalon Industries. Ahhh the memories. Sponsored by Avalon Industries"
 
 // .44 Magnum
 /obj/item/ammo_box/darkpack/c44/ep
@@ -43,7 +43,7 @@
 	icon_state = "incendiary"
 
 /obj/item/ammo_box/darkpack/c44/silver
-	desc = "This box has Action Bill smoking a cigar he lit with the muzzle flash of a revolver."
+	desc = "This box has Action Bill smoking a cigar he lit with the muzzle flash of a revolver. Sponsored by Avalon Industries"
 
 // 4.6mm HK
 /obj/item/ammo_box/darkpack/c46pdw/ap
@@ -95,7 +95,7 @@
 	ammo_type = /obj/item/ammo_casing/vampire/c556mm/hp
 
 /obj/item/ammo_box/darkpack/c556/silver
-	desc = "The box depicts Action Bill mowing down wolves with some sorta machine gun loaded with these silver bullets. Flashy and expensive"
+	desc = "The box depicts Action Bill mowing down wolves with some sorta machine gun loaded with these silver bullets. Flashy and expensive. Sponsored by Avalon Industries"
 
 // 7.62x51mm NATO
 /obj/item/ammo_box/darkpack/c762x51mm/ap
@@ -149,12 +149,12 @@
 
 /obj/item/ammo_box/darkpack/c12g/buck/silver
 	name = "ammo box (12g silver buckshot shell)"
-	desc = "The box shows Action Bill blasting a war wolf leaping at him with silver buckshot. Too bad they arent real."
+	desc = "The box shows Action Bill blasting a war wolf leaping at him with silver buckshot. Too bad they arent real. Sponsored by Avalon Industries"
 	ammo_type = /obj/item/ammo_casing/vampire/c12g/buck/silver
 	icon_state = "12box_silver"
 
 /obj/item/ammo_box/darkpack/c12g/silver
-	desc = "The box shows Action Bill holding a sawn of double barrel, loading in two new slugs over the corpse of a giant wolf. How cheesy."
+	desc = "The box shows Action Bill holding a sawn of double barrel, loading in two new slugs over the corpse of a giant wolf. How cheesy. Sponsored by Avalon Industries"
 
 // Exotic Ammo
 
@@ -169,11 +169,11 @@
 
 /obj/item/ammo_box/darkpack/arrows/silver
 	name = "ammo box (silver bolts)"
-	desc = "The box shows Action Bill shooting out the eye of an Eco-Terrorist with his trusty crossbow, grinning madly as he does."
+	desc = "The box shows Action Bill shooting out the eye of an Eco-Terrorist with his trusty crossbow, grinning madly as he does. Sponsored by Avalon Industries"
 	ammo_type = /obj/item/ammo_casing/caseless/bolt/silver
 
 // Musket Ammo
 
 /obj/item/ammo_box/darkpack/c75/silver
-	desc = "The bag has Action Bill emblazoned on the front, holding the head of a dead wolf and a still smoking musket. Vintage merchandise"
+	desc = "The bag has Action Bill emblazoned on the front, holding the head of a dead wolf and a still smoking musket. Vintage merchandise. Sponsored by Avalon Industries"
 
