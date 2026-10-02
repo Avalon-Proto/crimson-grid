@@ -56,7 +56,7 @@
 /obj/projectile/bullet/darkpack/vamp45acp/wp
 	damage = 40
 	armour_penetration = -10
-	var/fire_stacks = 4
+	var/fire_stacks = 2
 
 /obj/projectile/bullet/darkpack/vamp45acp/wp/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
@@ -102,7 +102,7 @@
 	armour_penetration = 10
 	exposed_wound_bonus = 5
 	wound_bonus = 10
-	var/fire_stacks = 5
+	var/fire_stacks = 3
 
 /obj/projectile/bullet/darkpack/vamp44/wp/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
@@ -398,7 +398,7 @@
 	fera_silver_damage(target, 10)
 
 /obj/projectile/bullet/darkpack/vamp75
-	damage = 120
+	damage = 100
 	armour_penetration = 0
 	exposed_wound_bonus = 15
 	wound_bonus = 15
