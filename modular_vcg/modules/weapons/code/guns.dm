@@ -71,6 +71,12 @@
 /obj/item/gun/ballistic/rifle/darkpack/lever
 	recoil = 1
 
+/obj/item/gun/ballistic/automatic/darkpack/musket
+	projectile_damage_multiplier = 1
+
+/obj/item/gun/ballistic/automatic/darkpack/musket/sawn
+	projectile_damage_multiplier = .75
+
 // Sniper
 /obj/item/gun/ballistic/automatic/darkpack/sniper
 	recoil = 6
@@ -101,6 +107,11 @@
 /obj/item/gun/ballistic/automatic/darkpack/autoshotgun
 	recoil = 4
 
+/obj/item/gun/ballistic/shotgun/vamp_remington
+	recoil = 4
+
+/obj/item/gun/ballistic/shotgun/vamp_remington/sawnoff
+	recoil = 6
 
 // Magazine Modifications
 
