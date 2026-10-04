@@ -75,7 +75,7 @@
 	projectile_damage_multiplier = 1
 
 /obj/item/gun/ballistic/automatic/darkpack/musket/sawn
-	projectile_damage_multiplier = .75
+	projectile_damage_multiplier = 0.75
 
 // Sniper
 /obj/item/gun/ballistic/automatic/darkpack/sniper
