@@ -351,11 +351,10 @@
 	exposed_wound_bonus = 15
 	wound_bonus = 20
 	weak_against_armour = TRUE
-	sharpness = SHARP_POINTY
 
 /obj/projectile/bullet/shotgun_slug/vamp/he
 	damage = 90
-	armour_penetration = 40
+	armour_penetration = 50
 	exposed_wound_bonus = 20
 	wound_bonus = 25
 
